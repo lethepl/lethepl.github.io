@@ -190,27 +190,37 @@
         <h2 class="text-uppercase">Skontaktuj się z nami</h2>
         <div class="row footer-content">
           <div class="col-12 col-md-6">
-            <div class="row">
-              <div class="col-4">
-                  <img class="img-fluid" alt="" src="img/contact/ico_tel.png" />
-              </div>
-              <div class="col-8">
-                  <p class="mb-0">Telefon (manager):
-                      <br>+48 604 994 891</p>
+              <div class="row">
+                <div class="col-4">
+                    <img class="img-fluid" alt="" src="img/contact/ico_tel.png" />
+                </div>
+                <div class="col-8">
+                  <p class="mb-0">
+                    <div id="number" data-last="4 994 8">
+                      Telefon (manager):
+                      <br>
+                      +48 60<span style="cursor: pointer; color: white">......</span>91
+                    </div>
+                  </p>
+                </div>
               </div>
             </div>
-          </div>
-          <div class="col-12 col-md-6">
+            <div class="col-12 col-md-6">
               <div class="row">
                 <div class="col-4">
                     <img class="img-fluid" alt="" src="img/contact/ico_mail.png" />
                 </div>
                 <div class="col-8">
-                    <p class="mb-0">Email:
-                        <br>band@lethe.pl</p>
+                  <p class="mb-0">
+                    <div id="email" data-last="d@lethe">
+                      Email:
+                      <br>
+                      ban<span style="cursor: pointer; color: white">.@.....</span>.pl
+                    </div>
+                  </p>
                 </div>
               </div>
-          </div>
+            </div>
         </div>
       </div>
     </footer>
@@ -218,7 +228,7 @@
 
   <div class="copyright py-4 text-center">
     <div class="container">
-      <small>Copyright &copy; Lethe 2018</small>
+      <small>Copyright &copy; Lethe <noscript>2018</noscript><script>document.write(new Date().getFullYear())</script></small>
     </div>
   </div>
 
@@ -239,6 +249,7 @@
 
   <!-- Custom scripts  -->
   <script src="js/ui.min.js"></script>
+  <script src="js/dupa.js"></script>
 
 </body>
 
