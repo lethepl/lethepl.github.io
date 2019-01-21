@@ -101,6 +101,19 @@ small{
 .spotify-link:hover{
     opacity:.8
 }
+.spotify-button-link{
+    display:inline-block;
+    width:162px;
+    height:50px;
+    color:transparent!important;
+    background:url(../img/buttons/ico_logospotify.png) no-repeat;
+    background-size:contain;
+    transition:opacity .3s ease-in-out;
+    margin-bottom:40px
+}
+.spotify-button-link:hover{
+    opacity:.8
+}
 .navbar-toggler{
     display:inline-block;
     width:36px;
