@@ -98,6 +98,9 @@ small{
     color:transparent!important;
     -webkit-text-stroke:0
 }
+.spotify-link:hover{
+    opacity:.8
+}
 .navbar-toggler{
     display:inline-block;
     width:36px;
