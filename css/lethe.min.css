@@ -87,6 +87,21 @@ small{
 .facebook-button-link:hover{
     opacity:.8
 }
+.spotify-link{
+    display:inline-block;
+    width:36px;
+    height:36px;
+    background:url(../img/buttons/ico_spotify.png) no-repeat;
+    background-size:contain;
+    border:1px solid #ff9f6c;
+    border-radius:50%!important;
+    color:transparent!important;
+    -webkit-text-stroke:0
+}
+.spotify-link:hover{
+    background:url(../img/buttons/ico_spotify.png) no-repeat;
+    background-size:contain
+}
 .navbar-toggler{
     display:inline-block;
     width:36px;
