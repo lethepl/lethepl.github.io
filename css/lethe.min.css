@@ -98,10 +98,6 @@ small{
     color:transparent!important;
     -webkit-text-stroke:0
 }
-.spotify-link:hover{
-    background:url(../img/buttons/ico_spotify.png) no-repeat;
-    background-size:contain
-}
 .navbar-toggler{
     display:inline-block;
     width:36px;
